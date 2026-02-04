@@ -49,5 +49,21 @@ elif sign == "-":
 elif sign == "*":
     print(mul(num1, num2))
 else:
-    print("Invalid operator")  ```
+    print("Invalid operator")  
+
+```
 ------------------------------------------------------------------
+**Environment Variables in Python**
+
+Environment variables are key–value pairs stored in the operating system environment.
+They are used to store configuration values such as database URLs, passwords, API keys, and file paths.
+
+-> You can use the termianl to store the password/api....
+``` export apikey="234456445666" ```
+to use this variable in code you can use the by importing the os module first and then you import 
+you have to use the same variable to import and export the environment variable 
+
+```
+import os
+    os.getenv("apikey")
+```
