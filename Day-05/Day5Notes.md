@@ -23,6 +23,8 @@ python3 clu.py 3 + 6
 where 3 = num1 = int(sys.argv[1])
 
 -----------------------------------------------------------------
+
+```
 #command line arg 
 
 import sys
@@ -47,5 +49,5 @@ elif sign == "-":
 elif sign == "*":
     print(mul(num1, num2))
 else:
-    print("Invalid operator")
+    print("Invalid operator")  ```
 ------------------------------------------------------------------
